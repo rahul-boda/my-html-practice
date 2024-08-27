@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>17/8class</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+<p>COLLECTS AND INPUTS DATA OR DETAILS</p>
+<p>it is defined as form tag i.e.'form in between slashes,...some types of forms:- email,password,numbersdate,date,submit,
+    button,text,checkbox,radio,fioles,select,options,
+    
+    <q>checkbox for selecting multiple values an radio for slecting single value...</q> </p>
+    <br>
+    <p>input for box amd attributes in Input are types given above i.e,form type="somethng"etc.
+    </p>
+    <p>just only input without types result below as box</p>
+    <form><input></form> 
+    <br><br>
+    <center>
+    <p>one box for mail nd other for password but whic is what?</p>
+    <form ><input type="email">
+    <input type="password">
+<p>to find which box is mail and which is password we need to use <mark>label</mark>tag to mention or give name to box</p>
+<label>Email:</label>
+<input type="email">
+<label>Password</label>
+<input type="password">
+<br>
+<br>
+<p>see the difference </p>
+<br>
+<p>by using 'for' attribute in label..see the difference</p>
+<label for="email">Email:</label>
+<input type="email" >
+<br>
+<br>
+<p>by using for placeholder and id attributes ...see the differnece</p>
+<input type="email" placeholder="enter mail here" id="karthik0711.ediga" required >
+<br>
+<br>
+<p>for writing <mark>only numbers</mark> in box use numbers tag</p>
+<label for="age">Age:</label>
+<input type="number" id="age" required>
+<br>
+<br>
+<p>using minimum and maximum tags as i gave 18min and max 50</p>
+<label for="age">Age</label>
+<input type="number" placeholder="Age" id="age" min="18" max="50">
+<p>for date of birth</p>
+<label for="date of birth" placeholder="dob">Date Of Birth:</label>
+<input type="number" id="dob">
+<br>
+<br>
+<p><mark>label for resume</mark> also accept attribute is used for accepting only particual type of files if not we dont need to use it</p>
+<label for="resume">Resume:</label>
+<input type="file" id="resume" accept=".pdf">
+<br>
+<br>
+<p><mark>Checkbox and uses</mark></p>
+<input type="checkbox">
+<br>
+<input type="checkbox" checked><span>Must accept or pre accepting conditions use checked attribute </span>
+<br>
+<p><mark>Checkbox Multiple Selecting feature</mark></p>
+<input type="checkbox"><span>Yes</span>
+<input type="checkbox"><span>Surely Yes</span>
+<input type="checkbox"><span>100% Yes</span>
+<input type="checkbox"><span>No</span>
+<br>
+<br>
+<p><mark>Radio</mark></p>
+<input type="radio">
+<br>
+<br>
+<p>difference</p>
+<br>
+<br>
+<input type="radio"><span>Male</span>
+<input type="radio"><span>Female</span>
+<input type="radio"><span>Others</span>
+<br>
+<input type="radio"><span>Yes</span>
+<input type="radio"><span>Surely Yes</span>
+<input type="radio"><span>100% Yes</span>
+<input type="radio"><span>No</span>
+<br>
+<input type="checkbox"><span>Male</span>
+<input type="checkbox"><span>Female</span>
+<input type="checkbox"><span>Others</span>
+<br>
+<input type="checkbox"><span>Yes</span>
+<input type="checkbox"><span>Surely Yes</span>
+<input type="checkbox"><span>100% Yes</span>
+<input type="checkbox"><span>No</span>
+<br>
+<p>Label for user name</p>
+<label for="username">Name</label>
+<input type="text" id="username">
+<br>
+<br>
+<p><mark>Select and its uses</mark></p>
+<select >
+    <option>Male</option>
+    <option>Female</option>
+    <option>Others</option>
+</select>
+<select>
+    <option>Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Others</option>
+</select>
+<br>
+<br>
+<select>
+    <option>select</option>
+    <option>India</option>
+    <option>Australia</option>
+    <option>Alaska</option>
+</select>
+<br>
+<br>
+<select>
+    <optgroup>
+    <option>Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Others</option>
+   </optgroup>
+   </select>
+   <select>
+<optgroup>
+    <option>select</option>
+    <option>India</option>
+    <option>Australia</option>
+    <option>Alaska</option>
+</optgroup>
+</select>
+<br>
+<br>
+<select>
+    <optgroup label="Country">
+    <option>select</option>
+    <option>India</option>
+    <option>Australia</option>
+    <option>Alaska</option>
+</optgroup>
+<optgroup label="Gender">
+    <option>Male</option>
+    <option>Female</option>
+    <option>Others</option>
+    </optgroup>
+</select>
+<br>
+<br>
+<p><mark>Data</mark>like suggestions giving in search bar or any </p>
+<br>
+<input>
+<datalist>
+    <option>India</option>
+    <option>Australia</option>
+    <option>Alaska</option>
+    <option>Swiss Alps</option>
+</datalist>
+<br>
+<br>
+<br>
+<input list="Country">
+<datalist id="countries">
+    <option>India</option>
+    <option>Australia</option>
+    <option>Alaska</option>
+    <option>Swiss Alps</option>
+</datalist>
+
+<br>
+<br><br>
+<p><mark>research on use of id giving nd other attributes clearly</mark></p>
+<br>
+<br>
+<br>
+<p>learn about autocomplete</p>
+<input autocomplete="off">
+<br>
+<br>
+<br>
+<form>
+    <label for="username">username</label>
+    <input type="text" id="username">
+    <br>
+    <label for="password">Password</label>
+    <input type="text" id="password">
+    <br>
+    <input type="submit">
+    <input type="button" name="submit">
+
+</form>
+
+
+
+
+
+
+
+
+
+</center>
+</form>
+    
+    
+</body>
+</html>

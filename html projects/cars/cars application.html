@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device width, initial-scale=1.o">
+        <title>cars</title>
+        <style>
+            .required::after{
+                content: "*";
+                color: rgb(255, 69, 0);
+                font-size: "20px";
+
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(241, 220, 194);">
+        <center><h2>Customer Application Form</h2>  </center>
+       <center style="background-color: rgb(184, 86, 86);"><p style="color: aliceblue;">APPLICANT<p></center> 
+        <form >
+            <label class="required" for="Name">  Name</label>
+            <input type="text" id="Name" placeholder="Enter name" required><br></br>
+
+            <label class="required" for="email"> email</label>
+            <input for="email" id="email" placeholder="@gmail.com" pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.[a-z]{2,}" required><br></br>
+
+            <label class="required" for="date of bith"> Date of birth</label>
+            <input type="date" id="date"  required><br></br>
+
+           <lable>Gender</lable>
+           <select>
+            <option>male</option>
+            <option>female</option>
+            <option>others</option>
+           </select>
+
+
+            
+
+            <label for="text">Social Insurance Number</label>
+            <input type="text" id="text" placeholder="1005EEYP26H" required> <br></br>
+<fieldset>
+    <legend class="required">Address</legend>
+            <label  for="text"> </label>
+          <input type="text" id="text"  required><br>   street Address</br>  
+
+            <label  for="text">   </label>
+             <input type="text" id="text"  required> <br>city</br>
+
+            
+           
+
+            <label  for="text">   </label>
+           <input type="text" id="text"  required><br> pin code  </br>
+
+            
+           <lable>select state</lable>   
+           <select >
+              <b><option> please select</option></b> 
+               <option>Telangana</option>
+               <option>Andhra pradesh</option>
+               <option>Punjab</option>
+               <option> Maharasthra</option>
+               <option>Tamil nadu</option>
+               <option> Delhi</option>
+           </select>
+        </fieldset>
+           <br></br>
+           <label class="required" for="number">  Ph No</label> 
+           <input type="number" id="number" placeholder="your 10 digit ph no" required><br></br>
+
+      
+           <label for="sign"> Sign:</label>
+           <input type="text" placeholder="sign verified"><br></br>
+
+           <input type="checkbox"><span>Yes,   i here by declare i have carefully and correctly filled the data</span><br></br>
+
+        
+
+           
+<center> <a href="./car submission sucessful.html"><input type="button" value="submit" ></a></center>
+            
+        
+     </form>
+
+    </body>
+</html>
